@@ -25,7 +25,7 @@ creator
   .withServer(vercelServer)
   .registerCommandsIn(path.join(__dirname, 'commands'))
   .syncCommands()
-  .startServer();
+  //.startServer();
 
 // This should serve in localhost:8020/interactions
 export const vercel = vercelServer;
